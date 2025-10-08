@@ -33,7 +33,7 @@ public class Agenda {
         if (contatos.isEmpty()) {
             System.out.println("Nenhum contato na agenda.");
         } else {
-            System.out.println("📒 Lista de contatos:");
+            System.out.println(" Lista de contatos:");
             for (Contato c : contatos) {
                 System.out.println(c);
             }
